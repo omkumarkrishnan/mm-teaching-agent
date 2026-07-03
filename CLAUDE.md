@@ -222,3 +222,204 @@ C:\Users\omkii\
 
 **Last Updated**: May 31, 2026  
 **Status**: Publications section completed ✅
+
+---
+
+# MM Teaching Agent - IIM Kozhikode MBA
+
+## Overview
+AI-powered teaching assistant for Marketing Management (MM) course coordination and content development. Helps generate case discussions, design session activities, and create assignments with rubrics.
+
+**Course**: Marketing Management (Term 1)  
+**Sections**: A & B (PGP 30)  
+**Instructor**: Prof. Omkumar Krishnan  
+**Materials**: [Google Drive](https://drive.google.com/drive/folders/13xx0trMSrow5mjyWeKUyZFqej5bVX4Lo)
+
+---
+
+## How to Invoke
+
+Use in Claude Code when you need teaching support:
+
+**For Case Discussion Questions:**
+```
+MM-Teach: Generate discussion questions for [case name]
+```
+
+**For Session Activity Planning:**
+```
+MM-Teach: Design session activity for [topic/week]
+```
+
+**For Assignment Design:**
+```
+MM-Teach: Create assignment on [topic] with grading rubric
+```
+
+---
+
+## Course Materials & Topics
+
+### Available Cases
+- The Accra Beach Hotel (Strategic positioning, pricing, market analysis)
+- New cases (see Google Docs folder)
+
+### Course Structure
+- **Term 1**: 7-8 weeks (Jan-Mar 2026)
+- **Sections**: A & B (PGP 30 students each)
+- **Format**: Case-based seminars + concept lectures
+- **Reference**: MM Intro presentation, MM Term 1 syllabus
+
+### Key MBA Marketing Topics
+- Strategic Marketing Planning
+- Consumer Behavior & Market Analysis
+- Product & Brand Management
+- Pricing Strategy
+- Distribution & Channel Management
+- Integrated Marketing Communication
+- Digital Marketing
+- Marketing Analytics
+
+---
+
+## Templates & Workflows
+
+### 1. Case Discussion Questions Generator
+
+**Input**: Case name + focus area (optional)
+
+**Output**: Structured discussion questions (8-10)
+- Opening questions (context, company background)
+- Analytical questions (problems, opportunities)
+- Strategic questions (recommendations, implementation)
+- Reflection questions (learning takeaways)
+
+**Example Prompt**:
+```
+MM-Teach: Case discussion for Accra Beach Hotel
+Focus: Strategic positioning and pricing strategy
+Format: 10 questions for 90-minute seminar
+```
+
+### 2. Session Activity Planner
+
+**Input**: Topic + session duration + class size
+
+**Output**: Structured activity plan
+- Opening activity (10-15 min)
+- Core activity (40-50 min)
+- Closure/reflection (15-20 min)
+- Materials needed
+- Grouping recommendations
+
+**Example Prompt**:
+```
+MM-Teach: Design session activity for Consumer Behavior
+Duration: 90 minutes
+Activity type: Interactive case analysis + group debate
+```
+
+### 3. Assignment Designer with Rubric
+
+**Input**: Topic + assignment type + difficulty level
+
+**Output**: Complete assignment
+- Objectives & learning outcomes
+- Instructions (clear, detailed)
+- Deliverables (format, length)
+- Grading rubric (5-7 criteria, 4-5 levels each)
+- Submission guidelines
+- Resources/references
+
+**Example Prompt**:
+```
+MM-Teach: Create assignment for Integrated Marketing Communication
+Type: Strategic campaign proposal
+Level: MBA (challenging, real-world context)
+```
+
+---
+
+## Quick Reference Commands
+
+| Task | Command |
+|------|---------|
+| Case discussion questions | `MM-Teach: Case [name] + discussion` |
+| Session activities | `MM-Teach: Session plan for [topic]` |
+| Assignment & rubric | `MM-Teach: Assignment on [topic]` |
+| Discussion framework | `MM-Teach: Discussion framework for [concept]` |
+| Group project template | `MM-Teach: Group project on [topic]` |
+| Exam questions | `MM-Teach: Exam questions for [module]` |
+
+---
+
+## Integration with Course Materials
+
+### Reference Materials Available
+- **MM Intro 2026** (presentation): Course overview, expectations, schedule
+- **MM Term 1 Syllabus**: Learning outcomes, topics, assessment criteria
+- **Case Studies**: Accra Beach Hotel + new cases in Google Docs
+- **Prof. Omkumar Profile**: Research interests, teaching philosophy (if relevant)
+
+### How the Agent Uses Materials
+1. Aligns questions with course syllabus learning outcomes
+2. Incorporates case studies for real-world application
+3. Matches difficulty level to MBA standards (analytical, strategic thinking)
+4. References current marketing trends and frameworks
+
+---
+
+## Assessment Guidelines for Agent
+
+### Discussion Questions Should:
+- Require critical thinking and analysis
+- Connect to strategic business decisions
+- Use frameworks (Porter, Kotler, Ansoff, etc.) where relevant
+- Progress from comprehension → analysis → application
+
+### Activities Should:
+- Engage 30+ students in 90-min sessions
+- Mix individual reflection, pair/group work, class discussion
+- Include real-world application or case analysis
+- Encourage peer learning and debate
+
+### Assignments Should:
+- Align with course learning outcomes
+- Be feasible within time constraints
+- Include grading rubric with clear criteria
+- Offer variety (individual, group, presentation, written)
+
+---
+
+## Session Planning Checklist
+
+When planning a session, ask the agent to provide:
+- [ ] Discussion questions (8-10 structured questions)
+- [ ] Opening activity (5-10 min ice-breaker/engagement)
+- [ ] Core activity (case analysis or debate structure)
+- [ ] Group work instructions (if applicable)
+- [ ] Closure/reflection prompt
+- [ ] Resources needed (slides, handouts, videos)
+- [ ] Time allocation (minute-by-minute)
+
+---
+
+## Tips for Best Results
+
+1. **Be Specific**: Provide case names, topics, duration, learning objectives
+2. **Specify Level**: MBA level expects strategic, analytical depth
+3. **Mention Constraints**: Class size (30-40), time available, student background
+4. **Request Format**: Prefer structured tables, bullet points, or narrative as needed
+5. **Link to Learning**: Reference course syllabus objectives for alignment
+
+---
+
+## Notes
+
+- Agent draws from MBA marketing best practices and IIM Kozhikode teaching context
+- All materials are aligned with course syllabus and AACSB standards
+- Agent can generate discussion variants for same case (different focus areas, difficulty levels)
+- For student-facing materials, always review and adapt as needed before distribution
+
+**Last Updated**: July 3, 2026  
+**Status**: MM Teaching Agent created ✅

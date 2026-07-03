@@ -1,0 +1,2 @@
+- [IIMK CV Accreditation Project](project_iimk_cv.md) — Faculty CV portal automation for AACSB submission, deadline June 1, 2026
+- [MM Teaching Agent](teaching_agent_mm.md) — MBA marketing management teaching assistant for discussions, activities, assignments
