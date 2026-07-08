@@ -338,6 +338,27 @@ Type: Strategic campaign proposal
 Level: MBA (challenging, real-world context)
 ```
 
+### 4. Teaching Note + Board Plan + Framework Deck Generator
+
+**Input**: Case study (PDF/text) + focus area + course placement
+
+**Output**: A coordinated instructor packet saved in one case folder:
+- **Teaching Note (.docx)** — discussion questions (opening → analytical → strategic → reflection), synopsis, learning objectives, minute-by-minute plan, board plan, recommended landing, student takeaways
+- **Case Panel Notes** — appended "PART C": panel-by-panel explanation of the board plan, each with a short "what this board does" paragraph + `Takeaways:` bullets
+- **Board Plan (.pptx)** — populate `Boardplan template 2026.pptx` (16:9; 3-col × 2-row = six panels + "Case Title" box). Typical flow: **1 Decision/Context → 2 Debate/Stakeholders → 3 Options → 4 Data/Evidence → 5 Frameworks → 6 Landing/Recommendation**. Save as a NEW file (never overwrite the template); mirror the grid as a `Table Grid` at the end of the note
+- **Framework Explainer Deck (.pptx)** — one slide per framework (Porter, Kotler, Ansoff, segmentation, positioning, etc.): numbered header band, *Core question* strip, THE FRAMEWORK / IN THE CASE / DECISION IMPLICATION; plus title, overview, synthesis slides
+
+**House style**: brand navy `#1F3864`; teaching-note PART headers 15pt bold, sub-headers 12pt bold, `List Bullet` bullets. Build with `python-docx`/`python-pptx` via `C:\Users\MSI\AppData\Local\Python\bin\python.exe`.
+
+**Reference exemplar**: `C:\Users\MSI\Desktop\Case 3 MAAS  Salesbot\` (built for the MAAS course; the same workflow and template apply to MM cases such as Accra Beach Hotel).
+
+**Example Prompt**:
+```
+MM-Teach: Build teaching note + board plan + framework deck for Accra Beach Hotel
+Focus: strategic positioning and pricing
+Board template: Boardplan template 2026.pptx
+```
+
 ---
 
 ## Quick Reference Commands
@@ -345,6 +366,7 @@ Level: MBA (challenging, real-world context)
 | Task | Command |
 |------|---------|
 | Case discussion questions | `MM-Teach: Case [name] + discussion` |
+| Board plan + note + deck | `MM-Teach: Board plan + teaching note for [case]` |
 | Session activities | `MM-Teach: Session plan for [topic]` |
 | Assignment & rubric | `MM-Teach: Assignment on [topic]` |
 | Discussion framework | `MM-Teach: Discussion framework for [concept]` |
@@ -421,5 +443,5 @@ When planning a session, ask the agent to provide:
 - Agent can generate discussion variants for same case (different focus areas, difficulty levels)
 - For student-facing materials, always review and adapt as needed before distribution
 
-**Last Updated**: July 3, 2026  
-**Status**: MM Teaching Agent created ✅
+**Last Updated**: July 8, 2026  
+**Status**: MM Teaching Agent created ✅ · added Board Plan + Teaching Note + Framework Deck generator (Template #4)

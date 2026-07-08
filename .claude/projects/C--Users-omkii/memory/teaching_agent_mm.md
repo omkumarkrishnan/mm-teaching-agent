@@ -39,5 +39,6 @@ metadata:
 - Case discussion framework (8-10 questions, progression from comprehension to application)
 - Session activity plan (90-min format with opening, core activity, closure)
 - Assignment design (with 5-7 criteria rubrics, 4-5 performance levels)
+- Teaching note + board plan + framework deck (added 2026-07-08): .docx teaching note with Case Panel Notes (PART C), board-plan .pptx from `Boardplan template 2026.pptx` (six panels: Decision → Debate → Options → Data → Frameworks → Landing, saved as NEW file), and a per-framework explainer deck. Navy `#1F3864`; built via python-docx/python-pptx
 
 **Full Configuration**: See CLAUDE.md "MM Teaching Agent" section for complete details, quick reference commands, and assessment guidelines.
